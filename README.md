@@ -112,9 +112,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 **On the first and second windows, click next.**
 
+
+
+</p>
+<br />
+<img src="https://i.imgur.com/X5oZZFh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+</p>
+<br />
+<img src="https://i.imgur.com/FmQZEYe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 **On the third window, select "Typical Setup."**
 
 **Then select install**
+
+</p>
+<br />
+<img src="https://i.imgur.com/8GAUk1c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 
 **After the installation completes, launch the MySQL Configuration Wizard.**
 
@@ -124,16 +143,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <br />
-<img src="https://i.imgur.com/X5oZZFh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6uEkKyj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<img src="https://i.imgur.com/FmQZEYe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/t6D92Kg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<img src="https://i.imgur.com/8GAUk1c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zDMkkCz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
