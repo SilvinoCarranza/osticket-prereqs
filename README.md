@@ -96,13 +96,51 @@ This tutorial outlines the prerequisites and installation steps for the open-sou
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Open ISS as an admin click PHP manager from within ISS
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zlAfhVj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click register a new PHP version click on the three dot to browser to php-cgi within the C:/PHP folder double click it then click ok
+ 
+</p>
+<br />
+<img src="https://i.imgur.com/zdhfcSG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Now reastart the sever by clicking the first link on the left the restart on the right
+</p>
+<br />
+<img src="https://i.imgur.com/bq3s4S6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Now we will install osTicket.
+first, we will extract osTicket-v1.15.8.zip to a desired location
+</p>
+<br />
+<img src="https://i.imgur.com/MvaApo4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Now open the unzipped folder name osTicket-v1.15.8 you will see a upload folder you will copy the folder into C:\inetpub\wwwroot then remame the folder exacly osTicket cannot be name anhything diffently
+</p>
+<br />
+<img src="https://i.imgur.com/8ZQwpNR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<img src="https://i.imgur.com/QkqPcOD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<img src="https://i.imgur.com/vXJTSHq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Now we will open IIS and restart the server click the server on the right click restart on the left
+</p>
+<br />
+<img src="https://i.imgur.com/bq3s4S6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+now we will open load the osticket site click on the server on the left 
 </p>
 <br />
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
