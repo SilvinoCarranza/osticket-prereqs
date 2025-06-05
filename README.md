@@ -73,15 +73,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-**1.Run PHPManagerForIIS_V1.5.0.msi to install PHP Manager for IIS.**
+**1. Run PHPManagerForIIS_V1.5.0.msi to install PHP Manager for IIS.**
 
-**2.After that, run rewrite_amd64_en-US.msi to install the IIS URL Rewrite Module.**
+**2. After that, run rewrite_amd64_en-US.msi to install the IIS URL Rewrite Module.**
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+**Create a directory C:\PHP**
+</p>
+<br />
+<img src="https://i.imgur.com/Erj5REY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+**1.Right-click the ZIP file and choose “Extract All...”**
+
+**2.Set the destination folder to C:\PHP and extract the files there.**
+
+</p>
+<br />
+<img src="https://i.imgur.com/cimO4NA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
