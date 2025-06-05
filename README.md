@@ -45,21 +45,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
 **Enabling IIS and CGI on Windows**
 
-1.Open the Control Panel.
+**1.Open the Control Panel.**
 
-2.Navigate to Programs > Programs and Features.
+**2.Navigate to Programs > Programs and Features.**
 
-3.Click Turn Windows features on or off (on the left panel).
+**3.Click Turn Windows features on or off (on the left panel).**
 
-4.In the window that appears, scroll down and check the box for Internet Information Services (IIS).
+**4.In the window that appears, scroll down and check the box for Internet Information Services (IIS).**
 
-5.Expand the Internet Information Services section by clicking the plus sign or arrow.
+**5.Expand the Internet Information Services section by clicking the plus sign or arrow.**
 
-6.Expand World Wide Web Services > Application Development Features.
+**6.Expand World Wide Web Services > Application Development Features.**
 
-7.Check the box for CGI.
+**7.Check the box for CGI.**
 
-8.Click OK to apply the changes. 
+**8.Click OK to apply the changes.** 
+
 <p>
 </p>
 <img src="https://i.imgur.com/GsfGXep.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -73,9 +74,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-**1. Run PHPManagerForIIS_V1.5.0.msi to install PHP Manager for IIS.**
+**1. Run PHPManagerForIIS_V1.5.0 to install PHP Manager for IIS.**
 
-**2. After that, run rewrite_amd64_en-US.msi to install the IIS URL Rewrite Module.**
+**2. After that, run rewrite_amd64_en-US to install the IIS URL Rewrite Module.**
 </p>
 <br />
 <img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -96,6 +97,58 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 <img src="https://i.imgur.com/cimO4NA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+**Install VC_redist.x86**
+
+</p>
+<br />
+<img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+**Install MySQL 5.5.62 using the installer mysql-5.5.62-win32**
+
+**On the first and second windows, click next.**
+
+**On the third window, select "Typical Setup."**
+
+**Then select install**
+
+**After the installation completes, launch the MySQL Configuration Wizard.**
+
+**Select Standard Configuration.**
+
+**Set a username and a password.**
+
+</p>
+<br />
+<img src="https://i.imgur.com/X5oZZFh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<img src="https://i.imgur.com/FmQZEYe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<img src="https://i.imgur.com/8GAUk1c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
