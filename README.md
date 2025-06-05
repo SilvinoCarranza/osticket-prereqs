@@ -1,174 +1,101 @@
-<p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
+![osTicket logo](https://i.imgur.com/Clzj7Xs.png)
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+# osTicket - Prerequisites and Installation
 
+This tutorial outlines the prerequisites and installation steps for the open-source help desk ticketing system **osTicket**.
 
+---
 
+## Environments and Technologies Used
 
-<h2>Environments and Technologies Used</h2>
+* Microsoft Azure (Virtual Machines / Compute)
+* Remote Desktop
+* Internet Information Services (IIS)
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+## Operating System Used
 
-<h2>Operating Systems Used </h2>
+* Windows 10 (21H2)
 
-- Windows 10</b> (21H2)
+---
 
-<h2>List of Prerequisites</h2>
+## Installation Files for osTicket
 
-**Intillation files needed for osTicket**
+* [osTicket Releases](https://github.com/osTicket/osTicket/releases)
+* [HeidiSQL 12.3.0.6589](https://www.npackd.org/p/heidisql/12.3.0.6589)
+* [MySQL Community Server 5.5.62](https://www.npackd.org/p/com.mysql.MySQLCommunityServer/5.5.62)
+* [Latest PHP for Windows](https://windows.php.net/downloads/releases/latest/)
+* [PHP Manager 1.5.0 for IIS 10](https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10)
+* [URL Rewrite for IIS](https://www.iis.net/downloads/microsoft/url-rewrite)
+* [Microsoft Visual C++ Redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
-[osTicket Releases](https://github.com/osTicket/osTicket/releases)
+---
 
-[HeidiSQL 12.3.0.6589](https://www.npackd.org/p/heidisql/12.3.0.6589)
+## Enabling IIS and CGI on Windows
 
-[MySQL Community Server 5.5.62](https://www.npackd.org/p/com.mysql.MySQLCommunityServer/5.5.62)
+1. Open **Control Panel**.
+2. Navigate to **Programs > Programs and Features**.
+3. Click **Turn Windows features on or off**.
+4. Scroll down and check **Internet Information Services (IIS)**.
+5. Expand **Internet Information Services > World Wide Web Services > Application Development Features**.
+6. Check the box for **CGI**.
+7. Click **OK** to apply the changes.
 
-[Latest PHP for Windows](https://windows.php.net/downloads/releases/latest/)
+![Enable IIS](https://i.imgur.com/GsfGXep.png)
 
-[PHP Manager 1.5.0 for IIS 10](https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10)
+---
 
-[URL Rewrite for IIS](https://www.iis.net/downloads/microsoft/url-rewrite)
+## Installation Steps
 
-[Microsoft Visual C++ Redistributable 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
-</p>
+### Step 1: Install PHP Manager and URL Rewrite Module
 
-  <img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+1. Run `PHPManagerForIIS_V1.5.0.msi` to install PHP Manager for IIS.
+2. Run `rewrite_amd64_en-US.msi` to install the IIS URL Rewrite Module.
 
-<p>  
-  
-**Enabling IIS and CGI on Windows**
+### Step 2: Install and Configure PHP
 
-**1.Open the Control Panel.**
+1. Create a folder at `C:\PHP`.
+2. Download the ZIP file `php-7.3.8-nts-Win32-VC15-x86.zip`.
+3. Right-click the ZIP file and select **Extract All...**
+4. Extract the contents to `C:\PHP`.
 
-**2.Navigate to Programs > Programs and Features.**
+![Extract PHP](https://i.imgur.com/Erj5REY.png)
 
-**3.Click Turn Windows features on or off (on the left panel).**
+### Step 3: Install Visual C++ Redistributable
 
-**4.In the window that appears, scroll down and check the box for Internet Information Services (IIS).**
+* Install `VC_redist.x86.exe` from the official Microsoft website.
 
-**5.Expand the Internet Information Services section by clicking the plus sign or arrow.**
+### Step 4: Install MySQL 5.5.62
 
-**6.Expand World Wide Web Services > Application Development Features.**
+1. Run `mysql-5.5.62-win32.msi`.
+2. Click **Next** on the first and second screens.
+3. Select **Typical Setup**, click **Next**, then click **Install**.
 
-**7.Check the box for CGI.**
+![MySQL Setup](https://i.imgur.com/8GAUk1c.png)
 
-**8.Click OK to apply the changes.** 
+### Step 5: Configure MySQL
 
-<p>
-</p>
-<img src="https://i.imgur.com/GsfGXep.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<p>
-<p>
+1. After installation, the **MySQL Configuration Wizard** should launch automatically. If not, launch it manually from the Start Menu.
+2. On the welcome screen, click **Next**.
+3. Select **Standard Configuration**, then click **Next**.
+4. Leave the default settings and click **Next**.
+5. When prompted:
 
+   * Set the username to `root`.
+   * Enter and confirm the password (e.g., `root`).
+6. Click **Execute** to apply the configuration.
 
+![MySQL Config Wizard](https://i.imgur.com/poMWWFg.png)
 
-</p>
-<br />
+---
 
-<h2>Installation Steps</h2>
+## Next Steps
 
-**1. Run PHPManagerForIIS_V1.5.0 to install PHP Manager for IIS.**
+* Install osTicket and configure it to connect to the MySQL database.
+* Verify PHP is properly registered in IIS.
+* Set file and folder permissions as required.
 
-**2. After that, run rewrite_amd64_en-US to install the IIS URL Rewrite Module.**
-</p>
-<br />
-<img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
+---
 
-**Create a directory C:\PHP**
-</p>
-<br />
-<img src="https://i.imgur.com/Erj5REY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-**1.Right-click the ZIP file (php-7.3.8-nts-Win32-VC15-x86) and choose “Extract All...”**
-
-**2.Set the destination folder to C:\PHP and extract the files there.**
-
-</p>
-<br />
-<img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<img src="https://i.imgur.com/cimO4NA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-**Install VC_redist.x86**
-
-</p>
-<br />
-<img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-**Install mysql-5.5.62-win32**
-
-**On the first and second windows, select next.**
-
-</p>
-<br />
-<img src="https://i.imgur.com/X5oZZFh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-</p>
-<br />
-<img src="https://i.imgur.com/FmQZEYe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-**On the third window, select "Typical Setup."**
-
-**Then select next and install**
-
-</p>
-<br />
-<img src="https://i.imgur.com/8GAUk1c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-**Once installation finishes, the MySQL Configuration Wizard should launch automatically. If not, launch it manually from the Start Menu.**
-
-**On the first Window of the wizard, select Next.**
-
-</p>
-<br />
-<img src="https://i.imgur.com/6uEkKyj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-**In the second window, choose Standard Configuration and select Next.**
-
-**In the third window, leave the default options and select Next.**
-
-</p>
-<br />
-<img src="https://i.imgur.com/t6D92Kg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-<br />
-<img src="https://i.imgur.com/zDMkkCz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-**When asked for account settings, enter a username (typically root).**
-
-**Then set and confirm your password.**
-</p>
-<br />
-
-<img src="https://i.imgur.com/poMWWFg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
