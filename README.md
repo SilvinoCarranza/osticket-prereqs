@@ -90,10 +90,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-**1.Right-click the ZIP file and choose “Extract All...”**
+**1.Right-click the ZIP file (php-7.3.8-nts-Win32-VC15-x86) and choose “Extract All...”**
 
 **2.Set the destination folder to C:\PHP and extract the files there.**
 
+</p>
+<br />
+<img src="https://i.imgur.com/AO9Uq0j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <img src="https://i.imgur.com/cimO4NA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -108,11 +111,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-**Install MySQL 5.5.62 using the installer mysql-5.5.62-win32**
+**Install mysql-5.5.62-win32**
 
-**On the first and second windows, click next.**
-
-
+**On the first and second windows, select next.**
 
 </p>
 <br />
@@ -127,7 +128,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 **On the third window, select "Typical Setup."**
 
-**Then select install**
+**Then select next and install**
 
 </p>
 <br />
@@ -135,11 +136,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-**Once installation finishes, the MySQL Configuration Wizard should launch automatically.**
+**Once installation finishes, the MySQL Configuration Wizard should launch automatically. If not, launch it manually from the Start Menu.**
 
-**If not, launch it manually from the Start Menu.**
-
-**On the first screen of the wizard, click Next.**
+**On the first Window of the wizard, select Next.**
 
 </p>
 <br />
@@ -147,28 +146,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-**Choose Standard Configuration and click Next.**
+**In the second window, choose Standard Configuration and select Next.**
 
-</p>
-<br />
+**In the third window, leave the default options and select Next.**
 
-**When asked for account settings, enter a username (typically root).**
-
-**Set and confirm your password.**
 </p>
 <br />
 <img src="https://i.imgur.com/t6D92Kg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 <img src="https://i.imgur.com/zDMkkCz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+**When asked for account settings, enter a username (typically root).**
+
+**Then set and confirm your password.**
+</p>
+<br />
+
 <img src="https://i.imgur.com/poMWWFg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
