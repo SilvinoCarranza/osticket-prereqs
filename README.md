@@ -134,13 +134,67 @@ Now open the unzipped folder name osTicket-v1.15.8 you will see a upload folder 
 <img src="https://i.imgur.com/vXJTSHq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-Now we will open IIS and restart the server click the server on the right click restart on the left
+Now we will open IIS and restart the server click the server on the left click restart on the right
 </p>
 <br />
 <img src="https://i.imgur.com/bq3s4S6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-now we will open load the osticket site click on the server on the left 
+now we will load the osTicket site through ISS. on the left select the drop down menu of your sever then got to sites and select the drop down menu then default web site then click on osTicket then on the right click browse
+</p>
+<br />
+<img src="https://i.imgur.com/8OdVLje.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Now seeing the osTicket site you can see the prerequisites some of the recommended extentions on the list are not enabled so we will be enabling them.
+</p>
+<br />
+<img src="https://i.imgur.com/SMiw3yR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+To enable them we will return to ISS click the server drop down menu then sites dropdown menu then default web site dropdown menu then click on osTicket then from there click PHP manager
+</p>
+<br />
+<img src="https://i.imgur.com/j4aFN4u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/5eF3CH4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
