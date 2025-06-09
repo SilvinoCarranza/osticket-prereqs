@@ -158,28 +158,30 @@ To enable them we will return to ISS click the server drop down menu then sites 
 <img src="https://i.imgur.com/j4aFN4u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-now click on enable an extension 
+now click on enable or disable an extention
 </p>
 <br />
 <img src="https://i.imgur.com/5eF3CH4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-Now look for the extentions that need to be enble and enble them
+Now look for the extentions that need to be enable and enable them 
 </p>
 <br />
 <img src="https://i.imgur.com/xZMXPOV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we are going rename ost-sampleconfig.php to ost-config.php
+go to c:\drive look for intetpub open the file look for wwwroot open that file then osTicket file then within the include file look for ost-sampleconfig.php and rename it ost-config.php
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/epjpiyk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we will asssing permmisions to the ost-config.php file.
+right click the file go to properties and Disable inheritance and remove all inheritance permmsions from this object then add a IIS account or IIS groups
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fKv2cia.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
