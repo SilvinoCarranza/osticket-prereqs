@@ -178,22 +178,22 @@ go to c:\drive look for intetpub open the file look for wwwroot open that file t
 </p>
 <br />
 Now we will asssing permmisions to the ost-config.php file.
-right click the file go to properties and Disable inheritance and remove all inheritance permmsions from this object then add a IIS account or IIS groups
+right click the file go to properties and Disable inheritance and remove all inheritance permmsions from this object 
 </p>
 <br />
 <img src="https://i.imgur.com/fKv2cia.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+Now click on add then click on select a pincipal and add a user, group, or built-in  security principla then click ok then check full control and click apply then ok
+</p>
+<br />
+<img src="https://i.imgur.com/90PGGy5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iITn8TA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
