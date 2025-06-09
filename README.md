@@ -158,16 +158,16 @@ To enable them we will return to ISS click the server drop down menu then sites 
 <img src="https://i.imgur.com/j4aFN4u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+now click on enable an extension 
 </p>
 <br />
 <img src="https://i.imgur.com/5eF3CH4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now look for the extentions that need to be enble and enble them
 </p>
 <br />
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xZMXPOV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
